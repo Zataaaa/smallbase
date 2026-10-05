@@ -1,0 +1,10 @@
+name = "small-base-5b3b"
+main = "src/index.js"
+compatibility_date = "2026-09-18"
+
+[observability]
+enabled = true
+
+# Production environment -> deploys as a NEW Worker named "small-base-5b3b-prod"
+[env.production]
+name = "small-base-5b3b-prod"
